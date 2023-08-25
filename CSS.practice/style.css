@@ -1,0 +1,178 @@
+/*link style*/
+a{
+      text-decoration:none;
+}
+
+a:link{
+      color: palevioletred;
+}
+a:visited{
+
+      color: yellow;
+}
+a:hover{
+      color: orangered;
+}
+a:active{
+      color: purple;
+}
+/* shadow text*/
+#shadow{
+      font-size: 60px;
+      text-shadow: 5px 10px 8px red;
+}
+/*border,font style,color,padding in css*/
+#p1{
+      font-size: 20px;
+      font-style: oblique;
+      border: 1px solid purple;
+      padding: 20px 10px 16px 10px;
+
+}
+/* cursor*/
+#p1{
+      cursor: pointer;
+      cursor: progress;
+      cursor: not-allowed;
+      cursor: zoom-in;
+      cursor:wait;
+}
+/* Shadow outside*/
+#p4{
+      background-color: rgb(224, 77, 37);
+      font-size: 30px;
+      width: 500px;
+      box-shadow: 10px 10px 15px 3px yellow;
+}
+/* Shadow inside*/
+#p5{   
+      background-color: rgb(224, 77, 37);
+      font-size: 30px;
+      width: 500px;
+      box-shadow: 10px 10px 15px 3px yellow inset;
+}
+
+#p6{   
+      background-color: rgb(224, 77, 37);
+      font-size: 30px;
+      width: 500px;
+      box-shadow: 10px 10px 15px 3px yellow,-10px 10px 15px 3px greenyellow ;
+}
+/* css opacity/transpernacy*/
+#color-box{
+      background-color: green;
+      height: 200px;
+      width: 500px;
+      margin-bottom: 20px;
+}
+#red-box{
+      background-color: red;
+      height: 300px;
+      width: 200px;
+      margin-top: -100px;
+      opacity:0.5;
+}
+/* gradient(2types of gradient linear and redial )*/
+#div1{
+      height: 500px;
+      width: 500px;
+      border: 1px solid gray;
+      background-image: linear-gradient(to right,rgb(218, 71, 23),black);
+}
+
+#div2{
+      height: 500px;
+      width: 700px;
+      border: 1px solid gray;
+      background-image:radial-gradient(circle,rgb(230, 82, 19),black ,blue ,red );
+}
+ 
+/* css overflow and resizable*/
+#overflow{
+      background-color: whitesmoke;
+      width: 500px;
+      height: 300px;
+      border: 1px solid red;
+      overflow-x: auto;
+      resize: both;
+
+ /* Box Sizing*/
+}
+#div3{
+      background-color: palevioletred;
+      width: 600px;
+      height: 100px;
+
+}
+#div4{
+      background-color: darkred;
+      width: 600px;
+      height: 100px;
+      padding: 15px;
+      border: 5px solid black;
+      box-sizing: border-box;
+}
+ /* diffrence between initial and inherit */
+ #green{
+      color: green;
+ }
+ #red{
+      color:red;
+ }
+ #initial{
+      color:initial;
+ }
+ #inherit{
+      color: inherit;
+ }
+
+  /* pseudo class*/
+li:nth-last-child(2)
+{
+      color:blue;
+}
+
+ /* focused*/
+input:focus{
+      border: 3px solid red;
+}
+
+ /*pseudo element*/
+p::first-line{
+      font-size: 35px;
+      color: red;
+}
+h1::before{
+      content:url()
+}
+::selection{
+      color: red;
+      background-color: yellow;
+}
+/*pseudo element*/
+
+
+#parent{
+      border: 1px solid red;
+      padding: 20px;
+      width: 50px;
+}
+
+#one{
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      display: inline-block;
+}
+#two{
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+      display: inline-block;
+}
+#three{
+      width: 100px;
+      height: 100px;
+      background-color: black;
+      display: inline-block;
+}
